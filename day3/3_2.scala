@@ -49,7 +49,7 @@ def determine(index: Int, remaining_strings: List[String], condition: Int): List
 }
 
 var remaining_strings_oxygen: List[String] = List(first_line) ::: lines.toList
-var remaining_strings_co2: List[String] = List(first_line) ::: remaining_strings_oxygen
+var remaining_strings_co2: List[String] = remaining_strings_oxygen
 
 var i : Int = 0
 while(i!=first_line.trim().length() && remaining_strings_oxygen.length != 1){
