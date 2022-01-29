@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-with open("D:\\aoc\day13\input.txt","r") as file:
+with open("input.txt","r") as file:
     lines = file.readlines()
 
 folds = []
